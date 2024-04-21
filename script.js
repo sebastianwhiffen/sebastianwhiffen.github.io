@@ -23,7 +23,7 @@ function displayGitHubUsername() {
     const username = hostname.split('.')[0];
     const usernameElement = document.querySelector('#usernameElement');
 
-    usernameElement.innerHTML = "https://github.com/" + username;
+    usernameElement.innerHTML = "My GitHub";
     usernameElement.href = `https://github.com/${username}`;
 }
 
